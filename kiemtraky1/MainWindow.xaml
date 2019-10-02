@@ -1,0 +1,24 @@
+﻿<Window x:Class="kiemtraky1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kiemtraky1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,2,-2">
+        <Label Content="Tên kh" HorizontalAlignment="Left" Height="60" Margin="25,10,0,0" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <Label Content="Số đt" HorizontalAlignment="Left" Height="60" Margin="25,97,0,0" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <TextBox x:Name="txtTenkh" HorizontalAlignment="Left" Height="60" Margin="206,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="384" FontSize="20"/>
+        <TextBox x:Name="txtSodt" HorizontalAlignment="Left" Height="60" Margin="206,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="384" FontSize="20"/>
+        <Label Content="Sản phẩm" HorizontalAlignment="Left" Height="53" Margin="25,180,0,0" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <RadioButton x:Name="rbtTivi" Content="Tivi" HorizontalAlignment="Left" Height="42" Margin="206,180,0,0" VerticalAlignment="Top" Width="137" FontSize="20" />
+        <RadioButton x:Name="rbtTuLanh" Content="Tủ Lạnh" HorizontalAlignment="Left" Height="42" Margin="363,180,0,0" VerticalAlignment="Top" Width="143" FontSize="20" />
+        <RadioButton x:Name="rbtMayTinh" Content="Máy Tính" HorizontalAlignment="Left" Height="42" Margin="548,180,0,0" VerticalAlignment="Top" Width="133" FontSize="20" />
+        <Label Content="Số lượng" HorizontalAlignment="Left" Height="60" Margin="25,248,0,0" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <TextBox x:Name="txtSoLuong" HorizontalAlignment="Left" Height="60" Margin="206,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <Button x:Name="txbHienThi" Content="Hóa đơn" HorizontalAlignment="Left" Height="53" Margin="206,341,0,0" VerticalAlignment="Top" Width="100" Click="TxbHienThi_Click"/>
+        <Button Content="Hủy" HorizontalAlignment="Left" Height="53" Margin="406,341,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="Button_Click"/>
+
+    </Grid>
+</Window>
